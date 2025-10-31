@@ -13,7 +13,7 @@ export default function Sidebar() {
         <li><a href="/doctores">Doctores</a></li>
         <li><a href="/citas">Citas</a></li>
       </ul>
-      <div>
+      <div className="logout-section">
         <button className="logout-btn">Cerrar Sesión</button>
       </div>
     </div>

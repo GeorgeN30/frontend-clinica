@@ -3,6 +3,16 @@
   min-height: 100vh;
   width: 100vw;
 }
+li a {
+  color: white;         
+  text-decoration: none;  
+}
+
+li a:hover {
+  color: white;               
+  background-color: #c50b0b;  
+}
+
 
 .sidebar {
   width: 230px;
@@ -25,4 +35,19 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+}
+
+.logout-section {
+  position: absolute;
+  bottom: 20px;
+  width: calc(100% - 40px); /* Ajusta el ancho considerando el padding */
+}
+.logout-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #cc0000;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
 }

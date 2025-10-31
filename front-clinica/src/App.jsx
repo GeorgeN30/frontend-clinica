@@ -7,10 +7,10 @@ import Citas from "./pages/Citas";
 
 function App() {
   return (
-    <Router>
       <div className="app-container">
         <Sidebar />
         <main className="main-content">
+          <Router>
           <Routes>
             <Route path="/" element={<h1>Bienvenido a ClínicaApp</h1>} />
             <Route path="/usuarios" element={<UserList />} />
@@ -18,9 +18,9 @@ function App() {
             <Route path="/doctores" element={<DoctorList/>} />
             <Route path="/citas" element={<Citas/>} />
           </Routes>
+          </Router>
         </main>
       </div>
-    </Router>
   );
 }
 
